@@ -1,0 +1,31 @@
+:root{
+    --background-color:rgb(92, 104, 196) ;
+    --border-radius:20px;
+    --white-color:#fff;
+    --grey-color:rgb(203, 187, 187);
+    --title-font-size:30px;
+    --small-font-size:14px;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: rgb(44, 37, 37);
+}
+*{
+    margin:0;
+    padding:0;
+}
+.song-title{
+    h1{
+        font-size: var(--title-font-size);
+        color:var(--white-color);
+    }
+    h4{
+        font-size: var(--small-font-size);
+        color:var(--grey-color);
+        font-weight: 400;
+    }
+}
